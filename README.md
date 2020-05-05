@@ -47,7 +47,7 @@ Then the app should display an error message
 #### No connectivity - error course(sad path):
 1. System delivers error.
 
-### Load Movie from fallback (Cache) User Case
+### Load Movie from fallback (Cache) Use Case
 #### Data(Input):
 * Max age
 #### Primary course(happy path):
@@ -56,7 +56,7 @@ Then the app should display an error message
 3. System creates movie items from cached data.
 4. System delivers movie items.
 #### No Cache course(sad path):
-1. System delivers error.
+1. System delivers no movie item.
 
 ### Save Movie Use Case
 #### Data(Input):
