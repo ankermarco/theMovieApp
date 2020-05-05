@@ -7,8 +7,8 @@
 
 ```
 As a user
-I want see the latest Movies when I open the app
-So I can know what are the latest Movies
+I want the app to automatically load the latest movies
+So I can know what are the latest movies
 ```
 
 ### Scenarios (Acceptance criteria)
