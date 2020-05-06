@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F0744BB22461BE2600FCFC3A /* theMovieApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0744BA82461BE2600FCFC3A /* theMovieApp.framework */; };
 		F0744BC52461C0F400FCFC3A /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0744BC42461C0F400FCFC3A /* MovieItem.swift */; };
+		F0744BC92461E70300FCFC3A /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0744BC82461E70300FCFC3A /* RemoteFeedLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		F0744BB12461BE2600FCFC3A /* theMovieAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = theMovieAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0744BB82461BE2600FCFC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0744BC42461C0F400FCFC3A /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
+		F0744BC82461E70300FCFC3A /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		F0744BB52461BE2600FCFC3A /* theMovieAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				F0744BC82461E70300FCFC3A /* RemoteFeedLoaderTests.swift */,
 				F0744BB82461BE2600FCFC3A /* Info.plist */,
 			);
 			path = theMovieAppTests;
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0744BC92461E70300FCFC3A /* RemoteFeedLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
