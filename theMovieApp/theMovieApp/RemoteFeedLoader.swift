@@ -17,11 +17,12 @@ final public class RemoteFeedLoader {
         self.client = client
     }
     
-    public func load() {
-        client.setUrl(from: url)
+    public func load(completion: @escaping (Error) -> Void = {_ in}) {
+        client.get(from: url)
+        
     }
 }
 
 public protocol HTTPClient {
-    func setUrl(from url: URL)
+    func get(from url: URL)
 }
