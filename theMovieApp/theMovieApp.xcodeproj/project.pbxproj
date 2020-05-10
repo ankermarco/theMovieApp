@@ -74,8 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				F0744BC42461C0F400FCFC3A /* MovieItem.swift */,
-				F0744BAC2461BE2600FCFC3A /* Info.plist */,
 				F0744C3C2468596100FCFC3A /* RemoteFeedLoader.swift */,
+				F0744BAC2461BE2600FCFC3A /* Info.plist */,
 			);
 			path = theMovieApp;
 			sourceTree = "<group>";
